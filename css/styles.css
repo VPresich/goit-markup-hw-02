@@ -17,7 +17,7 @@ ul {
 
 header {
   background-color: #ffffff;
-  color: #2e2f42; 
+  color: #2e2f42;
 }
 
 /* Logo */
@@ -28,7 +28,7 @@ header {
   font-weight: 700;
   line-height: 116.667%; /*21 px */
   letter-spacing: 0.54px;
-  text-transform: uppercase;  
+  text-transform: uppercase;
 }
 
 .header-logo-accent {
@@ -46,7 +46,7 @@ header {
 
 .menu-item-link:hover,
 .menu-item-link:focus {
-  color: #404BBF;
+  color: #404bbf;
   text-decoration-line: underline;
 }
 
@@ -60,16 +60,14 @@ header {
 }
 
 .contact-email-link,
-.contact-phone-link{
-  color: #434455; /* var(--slate, #434455); */ 
+.contact-phone-link {
+  color: #434455; /* var(--slate, #434455); */
 }
 
 .contact-email-link:hover,
-.contact-email-link:focus{
-  color: #404BBF;
+.contact-email-link:focus {
+  color: #404bbf;
 }
-
-
 
 /* Main */
 
@@ -77,10 +75,10 @@ header {
 .section-about {
   background-color: #2e2f42;
 }
-.section-about-header {  
+.section-about-header {
   font-size: 56px;
   /* font-style: normal; */
-  font-weight: 700;  
+  font-weight: 700;
   line-height: 107.143%; /* 60px */
   letter-spacing: 1.12px;
   color: #fff;
