@@ -23,7 +23,7 @@ header {
 .header-logo {
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
+  /* font-style: normal; */
   font-weight: 700;
   line-height: 116.667%; /*21 px */
   letter-spacing: 0.54px;
@@ -43,6 +43,12 @@ header {
   letter-spacing: 0.32px;
 }
 
+.menu-item-link:hover,
+.menu-item-link:focus {
+  color: #404BBF;
+  text-decoration-line: underline;
+}
+
 /* Contacts */
 .contacts {
   font-size: 16px;
@@ -58,11 +64,11 @@ header {
 }
 
 .contact-email-link:hover,
-.contact-email-link:focus,
-.menu-item-link:hover,
-.menu-item-link:focus {
+.contact-email-link:focus{
   color: #404BBF;
 }
+
+
 
 /* Main */
 
