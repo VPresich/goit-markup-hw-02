@@ -27,19 +27,20 @@ header {
 }
 
 /* Logo */
-.header-logo {
+.logo {
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
+  /* font-style: normal; */
   font-weight: 700;
   line-height: 116.667%; /*21 px */
   letter-spacing: 0.54px;
-  text-transform: uppercase;
-  color: #2e2f42;
+  text-transform: uppercase; 
+  color: #4d5ae5; /*var(--iris, #4D5AE5); */ 
 }
 
 .header-logo-accent {
-  color: #4d5ae5; /*var(--iris, #4D5AE5); */
+  font-family: Raleway;
+  color: #2E2F42; /*var(--navyblue, #2E2F42);*/
 }
 
 /* Menu */
@@ -72,7 +73,9 @@ header {
 }
 
 .contact-email-link:hover,
-.contact-email-link:focus {
+.contact-email-link:focus,
+.contact-phone-link:hover,
+.contact-phone-link:hover {
   color: #404bbf;
 }
 
@@ -187,27 +190,19 @@ header {
 
 /* Footer */
 footer {
-  background: #2e2f42;
-  color: #f4f4fd;
+  background: #2e2f42;  
 }
-.footer-logo {
+
+.footer-logo-accent { 
   font-family: Raleway;
-  font-size: 18px;
-  /* font-style: normal; */
-  font-weight: 700;
-  line-height: 116.667%; /*21px;*/
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  color: #f4f4fd;
+  color: #F4F4FD; /*var(--cloud, #F4F4FD);*/
 }
-.footer-logo-accent {
-  font-family: Raleway;
-  color: #4d5ae5;
-}
-.footer-logo-text {
+
+.footer-logo-text {  
   font-size: 16px;
-  /* font-style: normal; */
+  font-style: normal; 
   font-weight: 400;
   line-height: 120%; /*24px;*/
   letter-spacing: 0.32px;
+  color: #f4f4fd;
 }
