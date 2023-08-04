@@ -11,10 +11,7 @@ ul {
   list-style-type: none;
 }
 
-.hidden-text {
-  left: -9999px;
-  width: 1px;
-  height: 1px;
+.hidden-text {  
   overflow: hidden;
 }
 
